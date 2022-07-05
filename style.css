@@ -1,9 +1,111 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Write CSS code below */
+.main-content {
+  min-height: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 300px 700px;
+}
+
+.left-section {
+  grid-column: span;
+  background-color: rgb(14, 64, 99);
+}
+
+.right-section {
+  grid-column: span 1 / span 2;
+  background-color: #f7f7f7;
+  width: 90%;
+}
+
+.left-content {
+  padding: 1rem;
+}
+
+.profile-image {
+  display: block;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 30%;
+  width: 60%;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+  color: #f7f7f7;
+}
+
+.designation {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  color: #26b2b9;
+}
+
+.description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  color: #f7f7f7;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0px 40px;
+}
+
+.social-media li i:hover {
+  color: #26b2b9;
+}
+
+i {
+  color: rgb(112, 114, 180);
+  margin-right: 4px;
+  padding: 5px;
+}
+
+.personal-details {
+  font-size: 0.9rem;
+  color: #efecec;
+  padding: 0.4rem;
+}
+
+.skills {
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem;
+}
+
+.skill-item {
+  padding-bottom: 1rem;
+}
+
+.skill-name {
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  height: 4px;
+}
