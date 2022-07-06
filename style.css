@@ -9,21 +9,20 @@
 /* Write CSS code below */
 .main-content {
   min-height: 1000px;
-  width: 90%s;
+  width: 90%;
   margin: 20px auto;
   display: grid;
   grid-template-columns: 300px 700px;
 }
 
 .left-section {
-  grid-column: span;
+  grid-column: span 1;
   background-color: rgb(14, 64, 99);
 }
 
 .right-section {
   grid-column: span 1 / span 2;
   background-color: #f7f7f7;
-  width: 90%;
 }
 
 .left-content {
