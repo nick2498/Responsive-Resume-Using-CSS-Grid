@@ -30,7 +30,7 @@
 }
 
 .right-main-content {
-  padding: 0.7rem 3rem;
+  padding: 2rem 3rem;
 }
 
 .profile-image {
@@ -125,7 +125,7 @@ i {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.02px;
-  padding: 1rem 0;
+  padding: 8px;
 }
 
 .content-title {
@@ -133,16 +133,20 @@ i {
   text-align: left;
   text-transform: uppercase;
   letter-spacing: 0.02px;
-  padding: 0;
+  padding: 8px;
 }
 
 .left {
   font-size: 0.85rem;
   display: block;
   margin: 0;
-  padding: 0;
+  padding-left: 8px;
   text-align: left;
   color: #4a4a4a;
+}
+
+.about-description {
+  padding: 8px;
 }
 
 .education-flex {
@@ -171,6 +175,11 @@ i {
   padding-bottom: 0;
 }
 
+.experience-body {
+  padding-left: 8px;
+  padding-bottom: 6px;
+}
+
 .project-one .project-flex {
   padding-top: 0;
 }
@@ -179,6 +188,14 @@ i {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 0;
+}
+
+.project-one .description-one {
+  padding-left: 8px;
+}
+
+.project-two .description-two {
+  padding-left: 8px;
 }
 
 /* Media queries */
